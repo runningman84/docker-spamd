@@ -11,11 +11,17 @@ The program can be integrated with the mail server to automatically filter all m
 
 Install
 ----
+
+```sh
 docker pull runningman84/spamd
+```
 
 Running
 ----
+
+```sh
 docker run -d -P -p 783:783 runningman84/spamd
+```
 
 Finally
 ----
