@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 MAINTAINER Philipp Hellmich <phil@hellmi.de>
 
 # install spamassassin
-RUN apt-get update -y && apt-get install spamassassin -y && RUN apt-get clean -y && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y && apt-get install spamassassin -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # update rules
 RUN /etc/cron.daily/spamassassin
