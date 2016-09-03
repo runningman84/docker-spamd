@@ -12,6 +12,9 @@ RUN wget -q https://github.com/Yelp/dumb-init/releases/download/v1.1.0/dumb-init
 ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
+# Define mountable directories.
+VOLUME ["/var/spool/mail"]
+
 # Server CMD
 CMD ["dumb-init", "/run.sh"]
 

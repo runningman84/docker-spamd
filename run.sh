@@ -1,4 +1,8 @@
 #!/bin/sh
+set -e
+
+mkdir -p /var/spool/mail/.spamassassin
+chown -R mail.mail /var/spool/mail/
 
 sa-update
 
