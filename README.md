@@ -1,6 +1,11 @@
 Spamd
 ============
 
+[![](https://images.microbadger.com/badges/version/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
+[![](https://images.microbadger.com/badges/image/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
+[![](https://img.shields.io/docker/stars/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
+[![](https://img.shields.io/docker/pulls/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
+
 Introduction
 ----
 SpamAssassin is a computer program released under the Apache License 2.0 used for e-mail spam filtering based on content-matching rules. It is now part of the Apache Foundation.

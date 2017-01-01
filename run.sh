@@ -8,7 +8,7 @@ if [ -z ${SPAMD_RANGE+x} ]; then SPAMD_RANGE="10.0.0.0/8,172.16.0.0/12,192.168.0
 mkdir -p /var/spool/mail/.spamassassin
 chown -R mail.mail /var/spool/mail/
 
-echo 'nameserver 8.8.8.8' | tee /etc/resolv.conf
+echo 'nameserver 8.8.8.8 8.8.4.4' | tee /etc/resolv.conf
 
 sa-update -D
 
