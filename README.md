@@ -5,6 +5,7 @@ Spamd
 [![](https://images.microbadger.com/badges/image/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
 [![](https://img.shields.io/docker/stars/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
 [![](https://img.shields.io/docker/pulls/runningman84/spamd.svg)](https://hub.docker.com/r/runningman84/spamd "Click to view the image on Docker Hub")
+[![Anchore Image Overview](https://anchore.io/service/badges/image/80566b17e1a770497c0c03bfbd383c86ef295e5045f1b0a5d592c9a752d63834)](https://anchore.io/image/dockerhub/runningman84%2Fspamd%3Alatest)
 
 Introduction
 ----
